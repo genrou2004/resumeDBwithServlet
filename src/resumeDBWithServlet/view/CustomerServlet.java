@@ -51,7 +51,7 @@ public class CustomerServlet extends HttpServlet {
 				                        + rs.getString(9) + " \n"
 				                        + rs.getString(10) + "\n"
 				                        + rs.getString(10);
-				
+				CustomerDetail = CustomerDetail.concat(CustomerDetail);
 				//SCustomerDetail = CustomerDetail.concat(CustomerDetail);
 				request.setAttribute("message", CustomerDetail);
 			}
